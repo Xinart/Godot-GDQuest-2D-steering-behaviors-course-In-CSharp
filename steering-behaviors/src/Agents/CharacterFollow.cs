@@ -17,7 +17,7 @@ public class CharacterFollow : KinematicBody2D
     }
 
     // Called every frame. 'delta' is the elapsed time since the previous frame.
-    public override void _Process(float delta)
+    public override void _PhysicsProcess(float delta)
     {
         Vector2 target_global_position = GetGlobalMousePosition();
 
