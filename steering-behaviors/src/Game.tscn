@@ -36,6 +36,18 @@ region_rect = Rect2( 0, 0, 1280, 720 )
 
 [node name="CharacterFollow" parent="." instance=ExtResource( 3 )]
 position = Vector2( 485.397, 342.461 )
+target_path = NodePath("../CharacterArriveTo")
+follow_offset = 100
+
+[node name="CharacterFollow2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 485.397, 342.461 )
+target_path = NodePath("../CharacterFollow")
+follow_offset = 100
+
+[node name="CharacterFollow3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 485.397, 342.461 )
+target_path = NodePath("../CharacterFollow2")
+follow_offset = 100
 
 [node name="CharacterArriveTo" parent="." instance=ExtResource( 4 )]
 position = Vector2( 227.004, 169.003 )

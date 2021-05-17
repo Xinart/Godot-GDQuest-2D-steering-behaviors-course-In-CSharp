@@ -10,6 +10,10 @@ radius = 25.7035
 collision_mask = 2
 script = ExtResource( 2 )
 
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+smoothing_speed = 3.0
+
 [node name="TriangleRed" type="Sprite" parent="."]
 position = Vector2( 6.92587, 0 )
 texture = ExtResource( 1 )
