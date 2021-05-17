@@ -14,6 +14,10 @@ config/name="Steering-behaviors"
 run/main_scene="res://src/Game.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Steering="*res://src/Autoloads/Steering.cs"
+
 [input]
 
 click={
